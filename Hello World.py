@@ -1,0 +1,1 @@
+print("Hello World") #This is print statement of Python Hello World
