@@ -6,6 +6,7 @@ age=22 #integer
 cgpa= 8.30 #float
 is_pass=True #boolean
 
+#Check data types 
 print(type(name))
 print(type(age))
 print(type(cgpa))
@@ -32,4 +33,4 @@ print(a,b,c)
 student=input("Enter your name:")
 marks=float(input("Enter your marks:"))
 print("Student Name:", student)
-print("makrs obtained:", marks)
+print("Marks obtained:", marks)
