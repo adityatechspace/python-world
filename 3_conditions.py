@@ -8,4 +8,17 @@ elif age == 18:
 
 else:
     print("You are eligible to vote.")
-    
+
+
+#Mini Project: Simple login System 
+
+user_name = input("Enter your username:")
+password = input("Enter your Password:")
+
+
+if user_name == "admin" and password == "password1234":
+    print("Login Successfull, Welcome Admin!")
+
+else:
+    print("Incorrect Username or Password. Please try again.")
+
