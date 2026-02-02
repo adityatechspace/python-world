@@ -8,3 +8,10 @@ while i <= 5:
 #for loop with range 
 for i in range(1, 6):
     print(i)
+
+
+# nested loop
+# for every ONE round of the outer loop, the inner loop runs COMPLETELY from start to end.
+for i in range(1,4):
+    for j in range(1,3):
+        print(i,j)
